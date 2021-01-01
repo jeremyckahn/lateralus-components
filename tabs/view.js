@@ -28,13 +28,9 @@ define([
     ,className: 'tabs'
 
     ,events: {
-      /**
-       * @param {jQuery.Event} evt
-       */
-      'click .tab': function (evt) {
-        this.selectTab($(evt.currentTarget));
-        evt.preventDefault();
-      }
+      'touchstart .tab': 'handleTabSelect'
+
+      ,'click .tab': 'handleTabSelect'
     }
 
     /**
@@ -54,6 +50,14 @@ define([
       this.$contents.addClass('tab-content');
 
       this.selectTab(this.$tabs.first());
+    }
+
+    /**
+     * @param {jQuery.Event} evt
+     */
+    ,handleTabSelect: function (evt) {
+      this.selectTab($(evt.currentTarget));
+      evt.preventDefault();
     }
 
     /**
