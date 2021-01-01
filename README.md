@@ -10,14 +10,14 @@ require.config({
   baseUrl: '/',
   packages: [{
     name: 'lateralus',
-    location: 'bower_components/lateralus/scripts',
+    location: 'node_modules/lateralus/scripts',
     main: 'lateralus'
   }, {
     name: 'lateralus.component.tabs',
-    location: 'bower_components/lateralus-components/tabs'
+    location: 'node_modules/lateralus-components/tabs'
   }, {
     name: 'lateralus.component.model-editor',
-    location: 'bower_components/lateralus-components/model-editor'
+    location: 'node_modules/lateralus-components/model-editor'
   }
 });
 ````

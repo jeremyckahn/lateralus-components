@@ -8,8 +8,8 @@ In your `app/index.html`:
 
 ````html
 <head>
-  <!-- build:css bower_components/jsoneditor/jsoneditor.css -->
-  <link rel="stylesheet" href="bower_components/jsoneditor/jsoneditor.css">
+  <!-- build:css node_modules/jsoneditor/jsoneditor.css -->
+  <link rel="stylesheet" href="node_modules/jsoneditor/jsoneditor.css">
   <!-- endbuild -->
 </head>
 ````
