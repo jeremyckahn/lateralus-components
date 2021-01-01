@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A set of general-use components for Lateralus",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
