@@ -1,5 +1,8 @@
 {
   "name": "@jeremyckahn/lateralus-components",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "0.1.0",
   "description": "A set of general-use components for Lateralus",
   "scripts": {
